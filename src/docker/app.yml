@@ -1,0 +1,6 @@
+version: '2'
+services:
+    flask_demo-app:
+        image: flask_demo
+        ports:
+            - 5000:5000
